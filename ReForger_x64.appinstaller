@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://6e7137e4-333c-4a34-9da6-f129f667b612.pages.dev/ReForger_x64.appinstaller"
+	Version="1.0.11.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="6e7137e4-333c-4a34-9da6-f129f667b612"
+		Version="1.0.11.0"
+		Publisher="CN=QuilLeeR"
+		Uri="https://github.com/QuilLeeR/6e7137e4-333c-4a34-9da6-f129f667b612/releases/download/ReForger_1.0.11.0_x64/ReForger_1.0.11.0_x64.msix?raw=true"
+		ProcessorArchitecture="x64" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.8"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/QuilLeeR/6e7137e4-333c-4a34-9da6-f129f667b612/releases/download/ReForger_1.0.11.0_x64/Microsoft.WindowsAppRuntime.1.8.msix?raw=true"
+			Version="8000.675.1142.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
